@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "snapshotInitialize: Microsoft production cloud",
+        //     "type": "al",
+        //     "request": "snapshotInitialize",
+        //     "tenant": "7bac1391-1bbb-46cf-ae0d-ad536338587c",
+        //     "environmentType": "Sandbox",
+        //     "environmentName": "UAT",
+        //     "authentication": "AAD",
+        //     "breakOnNext": "WebClient",
+        //     "executionContext": "DebugAndProfile",
+        //     "profilingType": "Instrumentation"
+        // },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Microsoft cloud sandbox",
+            "startupObjectId": 902,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "environmentType": "Sandbox",
+            "environmentName": "Copy2112",
+            // "environmentName": "ProdCopy14122023",
+            "tenant": "7bac1391-1bbb-46cf-ae0d-ad536338587c",
+            "schemaUpdateMode": "ForceSync",
+            "forceUpgrade": true
+        }
+    ]
+    
+}

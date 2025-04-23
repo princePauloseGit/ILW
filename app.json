@@ -1,0 +1,42 @@
+{
+  "id": "68c690ec-374f-43e0-b89c-61f008213401",
+  "name": "ILoveWallpaper",
+  "publisher": "Robosol",
+  "version": "24.0.0.24",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "932326fa-e5e0-46a0-87c9-1aa01a038111",
+      "publisher": "Robosol",
+      "name": "Robosol-Ochannel",
+      "version": "24.0.0.11"
+    },
+    {
+      "id": "a5727ce6-368c-49e2-84cb-1a6052f0551c",
+      "publisher": "Tasklet Factory",
+      "name": "Mobile WMS",
+      "version": "5.37.190.219"
+    }
+  ],
+  "screenshots": [],
+  "platform": "23.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 60041,
+      "to": 60100
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "12.0"
+}
